@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+    justify-content: center;
+}
+.try{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.logo{
+    max-width: 50px;
+    /* max-height: 35px; */
+}
+.top-logo{
+    margin-right: 5px;
+    margin-left:5px;
+}
+.tgl{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-brand{
+    font-family: 'IBM Plex Mono';
+    font-size: 20px;
+}
+.Link{
+    font-family: 'IBM Plex Mono';
+    text-decoration: none;
+    transition: transform .4s;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+.gimme-margin-top{
+    margin-top: 15px;
+}
