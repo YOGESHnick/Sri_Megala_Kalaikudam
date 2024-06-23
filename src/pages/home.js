@@ -12,6 +12,8 @@ import { Link } from "react-router-dom";
 import Introo from "../assets/introo.png";
 import Hero from "../assets/Hero.png";
 import Hero2 from "../assets/Hero2.png";
+import DanceLogo from "../assets/DanceLogo.png";
+import DrawingLogo from "../assets/DrawingLogo.png";
 
 const Image = styled("img")({
   maxWidth: "70%",
@@ -140,6 +142,116 @@ const Home = () => {
           </Grid>
         </Grid>
       </Box>
+
+      {/* W H A T   W E   P R O V I D E */}
+      <section id="classes">
+        <Box bgcolor="#FFD700" textAlign="center" p={10}>
+          <Typography
+            variant="bebasNeue"
+            fontSize={{ md: 48, xs: 30 }}
+            color="black"
+            display="block"
+            mb={5}
+          >
+            WHAT WE PROVIDE?
+          </Typography>
+          <Grid
+            container
+            spacing={2}
+            alignItems="center"
+            justifyContent="center"
+          >
+            <Grid item xs={12} md={6}>
+              <Image
+                src={DanceLogo}
+                alt="DanceLogo image"
+                style={{
+                  // width: isSmallScreen ? "80%" : "90%",
+                  maxWidth: "200px",
+                  backgroundColor: "transparent",
+                }}
+              />
+              <Typography
+                variant="bebasNeue"
+                fontSize={{ md: 48, xs: 30 }}
+                color="black"
+                display="block"
+                mb={5}
+              >
+                BHARATHANATYAM
+              </Typography>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <Image
+                src={DrawingLogo}
+                alt="DrawingLogo image"
+                style={{
+                  // width: isSmallScreen ? "80%" : "50%",
+                  maxWidth: "200px",
+                  backgroundColor: "transparent",
+                }}
+              />
+              <Typography
+                variant="bebasNeue"
+                fontSize={{ md: 48, xs: 30 }}
+                color="black"
+                display="block"
+                mb={5}
+              >
+                DRAWING
+              </Typography>
+            </Grid>
+          </Grid>
+          <Typography
+            variant="bebasNeue"
+            fontSize={{ md: 48, xs: 30 }}
+            color="black"
+            display="block"
+            // mb={5}
+          >
+            Learn the best of these fine arts
+          </Typography>
+          <Typography
+            variant="bebasNeue"
+            fontSize={{ md: 48, xs: 30 }}
+            color="black"
+            display="block"
+            mb={5}
+          >
+            From the best
+          </Typography>
+          <Box
+            textAlign="center"
+            backgroundColor="transparent"
+            justifyContent="center"
+            px={isSmallScreen ? 1 : 20}
+          >
+            <Typography
+              variant="ptSerif"
+              textAlign="center"
+              fontSize={{ md: 25, xs: 22 }}
+              color="black"
+              sx={{ marginBottom: 2 }}
+              display="block"
+              fontWeight="bold"
+            >
+              Learn the best of the skills, from us at Sri Megala Kalaikudam.
+            </Typography>
+            <Typography
+              variant="ptSerif"
+              textAlign="center"
+              fontSize={{ md: 25, xs: 22 }}
+              color="black"
+              sx={{ marginBottom: 2 }}
+              display="block"
+              fontWeight="bold"
+            >
+              We operate at two centers and different times too! Choose the most
+              appropriate one and join us!
+            </Typography>
+          </Box>
+        </Box>
+      </section>
     </div>
   );
 };
