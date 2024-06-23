@@ -30,28 +30,11 @@ const Home = () => {
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <div>
-      {/* S R I   M E G A L A   K A L A I K U D A M */}
-      {/* <Box textAlign="center" mx="auto">
-        <Image
-          src={Introo}
-          alt="Natarajar image"
-          style={{ width: isSmallScreen ? "100%" : "auto" }}
-        />
-      </Box> */}
-
       <Box direction="column" spacing={0} mb={5}>
         <Box position="relative">
-          {/* <Box
-            position="relative"
-            overflow="hidden"
-            sx={{
-              height: { xs: "150", md: "150" },
-            }}
-          > */}
             <Image src={Intro} alt="Natarajar image" layout="fill" 
               style={{ width: isSmallScreen ? "150%" : "42%" }}
             />
-          {/* </Box> */}
           <Box
             backgroundColor="transparent"
             position="absolute"

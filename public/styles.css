@@ -32,6 +32,11 @@
     font-weight: bold;
     color: black;
 }
+.footerLink,a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #BFA57B;
+}
 .gimme-margin-top{
     margin-top: 15px;
 }
