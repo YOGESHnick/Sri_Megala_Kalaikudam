@@ -16,6 +16,15 @@ const Home = () => {
     <div>
       <Box>
       <Typography
+          variant="junge"
+          display="block"
+          color="#593C35"
+          mb={2}
+          fontSize={{ md: 48, xs: 30 }}
+        >
+          SRI MEGALA KALAIKUDAM
+        </Typography>
+        <Typography
           variant="bebasNeue"
           display="block"
           color="#593C35"
