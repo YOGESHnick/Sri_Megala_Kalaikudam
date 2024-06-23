@@ -6,9 +6,11 @@ import {
   useMediaQuery,
   styled,
   Grid,
+  Stack,
   Button,
 } from "@mui/material";
 import { Link } from "react-router-dom";
+import Intro from "../assets/Intro.png";
 import Introo from "../assets/introo.png";
 import Hero from "../assets/Hero.png";
 import Hero2 from "../assets/Hero2.png";
@@ -28,12 +30,60 @@ const Home = () => {
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <div>
-      <Box textAlign="center" mx="auto">
+      {/* S R I   M E G A L A   K A L A I K U D A M */}
+      {/* <Box textAlign="center" mx="auto">
         <Image
           src={Introo}
           alt="Natarajar image"
           style={{ width: isSmallScreen ? "100%" : "auto" }}
         />
+      </Box> */}
+
+      <Box direction="column" spacing={0} mb={5}>
+        <Box position="relative">
+          {/* <Box
+            position="relative"
+            overflow="hidden"
+            sx={{
+              height: { xs: "150", md: "150" },
+            }}
+          > */}
+            <Image src={Intro} alt="Natarajar image" layout="fill" 
+              style={{ width: isSmallScreen ? "150%" : "42%" }}
+            />
+          {/* </Box> */}
+          <Box
+            backgroundColor="transparent"
+            position="absolute"
+            sx={{ top: isSmallScreen ? "20%" : "20%" }}
+            left="5%"
+            right="5%"
+            transform="translate(-50%, -50%)"
+            py={{ md: 7, xs: 4 }}
+           >
+            <Stack backgroundColor="transparent" py={{ md: 7, xs: 4 }} textAlign="center">
+              <Typography
+                variant="junge"
+                color="#BFA57B"
+                fontSize={{ md: 80, xs: 45 }}
+                fontWeight={400}
+                sx={{ lineHeight: isSmallScreen ? "1.0" : "normal" }}
+              >
+                SRI MEGALA KALAIKUDAM
+              </Typography>
+              <Typography
+              variant="ptSerif"
+              textAlign="center"
+              fontSize={{ md: 25, xs: 18 }}
+              color="black"
+              sx={{ marginBottom: 2 }}
+              display="block"
+            >
+              School of Bharathanatyam and drawing
+            </Typography>
+            </Stack>
+          </Box>
+        </Box>
       </Box>
 
       {/* D I S C O V E R   E S S E N C E  O F  B H A R A T H A N A T Y A M */}
