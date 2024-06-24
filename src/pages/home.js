@@ -17,7 +17,6 @@ import Hero2 from "../assets/Hero2.png";
 import DanceLogo from "../assets/DanceLogo.png";
 import DrawingLogo from "../assets/DrawingLogo.png";
 
-
 const Image = styled("img")({
   maxWidth: "70%",
   height: "auto",
@@ -33,9 +32,12 @@ const Home = () => {
     <div>
       <Box direction="column" spacing={0} mb={5}>
         <Box position="relative">
-            <Image src={Intro} alt="Natarajar image" layout="fill" 
-              style={{ width: isSmallScreen ? "150%" : "42%" }}
-            />
+          <Image
+            src={Intro}
+            alt="Natarajar image"
+            layout="fill"
+            style={{ width: isSmallScreen ? "150%" : "42%" }}
+          />
           <Box
             backgroundColor="transparent"
             position="absolute"
@@ -44,8 +46,12 @@ const Home = () => {
             right="5%"
             transform="translate(-50%, -50%)"
             py={{ md: 7, xs: 4 }}
-           >
-            <Stack backgroundColor="transparent" py={{ md: 7, xs: 4 }} textAlign="center">
+          >
+            <Stack
+              backgroundColor="transparent"
+              py={{ md: 7, xs: 4 }}
+              textAlign="center"
+            >
               <Typography
                 variant="junge"
                 color="#BFA57B"
@@ -56,15 +62,15 @@ const Home = () => {
                 SRI MEGALA KALAIKUDAM
               </Typography>
               <Typography
-              variant="ptSerif"
-              textAlign="center"
-              fontSize={{ md: 25, xs: 18 }}
-              color="black"
-              sx={{ marginBottom: 2 }}
-              display="block"
-            >
-              School of Bharathanatyam and drawing
-            </Typography>
+                variant="ptSerif"
+                textAlign="center"
+                fontSize={{ md: 25, xs: 18 }}
+                color="black"
+                sx={{ marginBottom: 2 }}
+                display="block"
+              >
+                School of Bharathanatyam and drawing
+              </Typography>
             </Stack>
           </Box>
         </Box>
@@ -72,7 +78,7 @@ const Home = () => {
 
       {/* D I S C O V E R   E S S E N C E  O F  B H A R A T H A N A T Y A M */}
 
-      <Box bgcolor="#B12C2C" textAlign="center" p={10}>
+      <Box bgcolor="#B12C2C" textAlign="center" p={isSmallScreen ? 5 : 10}>
         <Grid container spacing={2} alignItems="center" justifyContent="center">
           <Grid item xs={12} md={6} sx={{ m: 0 }} textAlign="left">
             <Typography
@@ -99,11 +105,9 @@ const Home = () => {
               with excellence, and each gesture narrates a tale of elegance,
               rhythm, and dedication.
             </Typography>
-            <button>
-              <Link className="Link" to="/contact">
-                Why us?
-              </Link>
-            </button>
+            <a className="Link" href="/contact">
+              <button>Why us?</button>
+            </a>
           </Grid>
           <Grid item xs={12} md={6}>
             <Image
@@ -121,7 +125,7 @@ const Home = () => {
 
       {/* A B O U T   T H E   G U R U  */}
 
-      <Box textAlign="center" p={10}>
+      <Box textAlign="center" p={isSmallScreen ? 5 : 10}>
         <Typography
           variant="bebasNeue"
           fontSize={{ md: 48, xs: 30 }}
@@ -168,18 +172,16 @@ const Home = () => {
               numerous accolades, committed to nurturing her students' artistic
               talents and fostering their growth in dance.
             </Typography>
-            <button>
-              <Link className="Link" to="/contact">
-                Know More
-              </Link>
-            </button>
+            <a className="Link" href="/contact">
+              <button>Know More</button>
+            </a>
           </Grid>
         </Grid>
       </Box>
 
       {/* W H A T   W E   P R O V I D E */}
       <section id="classes">
-        <Box bgcolor="#FFD700" textAlign="center" p={10}>
+        <Box bgcolor="#FFD700" textAlign="center" p={isSmallScreen ? 5 : 10}>
           <Typography
             variant="bebasNeue"
             fontSize={{ md: 48, xs: 30 }}

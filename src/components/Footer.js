@@ -25,7 +25,7 @@ const Footer = () => {
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <div>
-      <Box bgcolor="#38434A" textAlign="center" p={10}>
+      <Box bgcolor="#38434A" textAlign="center" p={isSmallScreen ? 5 : 10}>
         <Box backgroundColor="transparent" textAlign="left">
           <Typography
             variant="bebasNeue"

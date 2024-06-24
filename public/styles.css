@@ -40,8 +40,10 @@
 .gimme-margin-top{
     margin-top: 15px;
 }
-button .Link{
+a button {
     font-family: 'ptSerif';
+    font-weight: bolder;
+    height: 50px;
 }
 button{
     border-radius: 5px;
