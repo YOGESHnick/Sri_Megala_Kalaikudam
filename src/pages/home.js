@@ -17,6 +17,7 @@ import Hero2 from "../assets/Hero2.png";
 import DanceLogo from "../assets/DanceLogo.png";
 import DrawingLogo from "../assets/DrawingLogo.png";
 
+
 const Image = styled("img")({
   maxWidth: "70%",
   height: "auto",

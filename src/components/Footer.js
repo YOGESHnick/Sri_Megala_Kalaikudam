@@ -125,9 +125,9 @@ const Footer = () => {
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <Link className="footerLink" to="/">
+                    <a className="footerLink" href="/">
                       Home
-                    </Link>
+                    </a>
                   </Typography>
                   <Typography
                     textAlign={isSmallScreen ? "left" : "right"}
@@ -137,9 +137,9 @@ const Footer = () => {
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <Link className="footerLink" href="#classes">
+                    <a className="footerLink" href="#classes">
                       Bharathanatyam
-                    </Link>
+                    </a>
                   </Typography>
                   <Typography
                     textAlign={isSmallScreen ? "left" : "right"}
@@ -161,9 +161,9 @@ const Footer = () => {
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <Link className="footerLink" to="/gallery">
+                    <a className="footerLink" href="/gallery">
                       Gallery
-                    </Link>
+                    </a>
                   </Typography>
                   <Typography
                     textAlign={isSmallScreen ? "left" : "right"}
@@ -173,9 +173,9 @@ const Footer = () => {
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <Link className="footerLink" to="/contact">
+                    <a className="footerLink" href="/contact">
                       Contact
-                    </Link>
+                    </a>
                   </Typography>
                 </Stack>
               </Box>

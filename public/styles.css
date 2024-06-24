@@ -65,3 +65,46 @@ button:hover
 {
     background-color: #ffc800;
 }
+
+/* form */
+form
+{
+    text-align: center;
+    /* background-color: #113946; */
+    display: flex;
+    flex-direction: column;
+    /* width:90%; */
+    max-width: 800px;
+    /* padding:1vw 3vw; */
+    /* padding-right:3vw; */
+    /* border-radius: 1rem; */
+    /* margin-bottom: 30px; */
+    /* margin-left: max(15px,20px); */
+}
+
+form input,textarea,select,button{
+    border-radius: 5px;
+    color: #382B4D;
+    border: none;
+    border-bottom: 2px solid #382B4D;
+    margin-top:35px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+}
+form button{
+    width:100%;
+    min-height: 50px;
+    font-weight: bold;
+    font-family: "Bebas Neue";
+    background-color: #382B4D;
+    /* color:#ffc800; */
+}
+form i {
+    margin-right: 10px;
+}
+form button:hover
+{
+    color:black;
+    background-color: #ffc800;
+    border: 5px solid black;
+}
