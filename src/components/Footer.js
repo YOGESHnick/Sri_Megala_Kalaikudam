@@ -137,20 +137,8 @@ const Footer = () => {
                     color="#BFA57B"
                     fontSize={{ md: 20, xs: 15 }}
                   >
-                    <a className="footerLink" href="#classes">
-                      Bharathanatyam
-                    </a>
-                  </Typography>
-                  <Typography
-                    textAlign={isSmallScreen ? "left" : "right"}
-                    variant="ptSerif"
-                    fontWeight={700}
-                    letterSpacing={1}
-                    color="#BFA57B"
-                    fontSize={{ md: 20, xs: 15 }}
-                  >
-                    <a className="footerLink" href="#classes">
-                      Drawing
+                    <a className="footerLink" href="bharathanatyam-and-drawing">
+                      Classes
                     </a>
                   </Typography>
                   <Typography
