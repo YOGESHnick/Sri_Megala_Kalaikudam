@@ -162,7 +162,7 @@ const Contact = () => {
             </Typography>
           </Grid>
           <Grid item xs={12} md={6} sx={{ m: 0 }} textAlign="left">
-          <iframe title="Branch 2" width="100%" height="400px" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.041769896624!2d80.14804099999999!3d12.905035699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f0044b7dc79%3A0xaaa5a77278f3299!2sSri%20Megala%20Kalaikudam!5e0!3m2!1sen!2sin!4v1719243476228!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="Branch 2" width="100%" height="400px" class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15557.115759155648!2d80.1738715!3d12.8897768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52593c43c632cd%3A0x4440fa2ad33f0448!2sRajparis%20Crystal%20Spring%20Garden!5e0!3m2!1sen!2sin!4v1719245607878!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </Grid>
         </Grid>
       </Box>
