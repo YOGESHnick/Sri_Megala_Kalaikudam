@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import Classes from "./pages/Classes";
 
 const theme = createTheme({
   typography: {
@@ -125,6 +126,7 @@ export default function App() {
               <Route path="/" element={<Home />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/bharathanatyam-and-drawing" element={<Classes />} />
             </Routes>
             <Footer />
           </Router>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Bharathanatyam = () => {
+const Classes = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Bharathanatyam = () => {
   );
 }
 
-export default Bharathanatyam;
+export default Classes;
