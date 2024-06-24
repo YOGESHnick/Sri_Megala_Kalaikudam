@@ -192,11 +192,10 @@ const Footer = () => {
           textAlign={isSmallScreen ? "left" : "right"}
           variant="ptSerif"
           fontWeight={400}
-        //   letterSpacing={1}
           color="#BFA57B"
           fontSize={{ md: 15, xs: 10 }}
         >
-          Developed and managed by Shamlin
+          Developed and maintained by Shamlin
         </Typography>
         </a>
       </Box>

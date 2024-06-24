@@ -44,6 +44,11 @@ a button {
     font-family: 'ptSerif';
     font-weight: bolder;
     height: 50px;
+    font-size: 20px;
+}
+.classes{
+    background-color: #000000;
+    color: #ffc800;
 }
 button{
     border-radius: 5px;
@@ -60,12 +65,19 @@ form button{
     width:100%;
     min-height: 50px;
     font-weight: bold;
+    font-size: 20px;
     background-color: black;
     color:#ffc800;
 }
 button:hover
 {
-    background-color: #ffc800;
+    /* background-color: #ffc800; */
+    background-color: #38434A;
+    color: #F7C97E;
+}
+.classes:hover{
+    background-color: #38434A;
+    color: #F7C97E;
 }
 
 /* form */

@@ -75,7 +75,7 @@ const Contact = () => {
               ></textarea>
               <button type="submit">
                 <SendIcon sx={{ backgroundColor: "transparent" }} />
-                --Send
+                Send
               </button>
             </form>
           </Grid>
