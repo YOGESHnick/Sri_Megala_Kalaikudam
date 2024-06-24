@@ -7,9 +7,7 @@ import {
   styled,
   Grid,
   Stack,
-  Button,
 } from "@mui/material";
-import { Link } from "react-router-dom";
 import YouTube from "../assets/yt_logo.png";
 
 const Image = styled("img")({
@@ -32,7 +30,6 @@ const Footer = () => {
             color="#BFA57B"
             fontSize={{ md: 48, xs: 30 }}
             textAlign="left"
-            // fontWeight={400}
             fontWeight="bold"
             sx={{ lineHeight: isSmallScreen ? "1.0" : "normal" }}
             letterSpacing={2}
@@ -101,7 +98,6 @@ const Footer = () => {
                 </Typography>
               </Box>
             </Grid>
-
             {/* Third Column */}
             <Grid item xs={12} sm={4} mt={5}>
               <Box backgroundColor="transparent" textAlign="center">
@@ -174,7 +170,7 @@ const Footer = () => {
         <Box backgroundColor="transparent" mt={7} mb={5} textAlign="center">
           <a
             href="https://www.youtube.com/@deepikamegalaschool6412"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <Image
               style={{
@@ -187,7 +183,19 @@ const Footer = () => {
             />
           </a>
         </Box>
-        <a href="https://shamlin.dev" target="_blank" >
+        <a href="https://shamlin.dev" target="_blank" rel="noreferrer" >
+        <Typography
+          textAlign={isSmallScreen ? "left" : "right"}
+          variant="ptSerif"
+          fontWeight={400}
+          color="#BFA57B"
+          marginRight={1}
+          fontSize={{ md: 15, xs: 10 }}
+        >
+          Developed and maintained by Shamlin and
+        </Typography>
+        </a>
+        <a href="https://www.linkedin.com/in/sivaganesh-natarajavel-567a56237/" target="_blank" rel="noreferrer" >
         <Typography
           textAlign={isSmallScreen ? "left" : "right"}
           variant="ptSerif"
@@ -195,7 +203,7 @@ const Footer = () => {
           color="#BFA57B"
           fontSize={{ md: 15, xs: 10 }}
         >
-          Developed and maintained by Shamlin
+          Sivaganesh
         </Typography>
         </a>
       </Box>

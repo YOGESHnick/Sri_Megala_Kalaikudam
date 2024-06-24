@@ -6,11 +6,7 @@ import {
   useMediaQuery,
   styled,
   Grid,
-  Stack,
-  Button,
 } from "@mui/material";
-import { Link } from "react-router-dom";
-import Hero from "../assets/Hero.png";
 import Hero2 from "../assets/Hero2.png";
 import DanceLogo from "../assets/DanceLogo.png";
 import DrawingLogo from "../assets/DrawingLogo.png";
@@ -60,7 +56,6 @@ const Classes = () => {
               textAlign="left"
               display="block"
             >
-              {/* DISCOVER ESSENCE OF BHARATHANATYAM */}
               The Science, Movement and Performance…
             </Typography>
             <Typography
@@ -102,7 +97,6 @@ const Classes = () => {
               src={DanceLogo}
               alt="DanceLogo image"
               style={{
-                // width: isSmallScreen ? "80%" : "90%",
                 maxWidth: "200px",
                 backgroundColor: "transparent",
               }}
@@ -122,7 +116,6 @@ const Classes = () => {
               src={DrawingLogo}
               alt="DrawingLogo image"
               style={{
-                // width: isSmallScreen ? "80%" : "50%",
                 maxWidth: "200px",
                 backgroundColor: "transparent",
               }}
@@ -143,7 +136,6 @@ const Classes = () => {
           fontSize={{ md: 48, xs: 30 }}
           color="black"
           display="block"
-          // mb={5}
         >
           Learn the best of these fine arts
         </Typography>

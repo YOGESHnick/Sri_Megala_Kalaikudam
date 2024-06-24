@@ -7,11 +7,8 @@ import {
   styled,
   Grid,
   Stack,
-  Button,
 } from "@mui/material";
-import { Link } from "react-router-dom";
 import Intro from "../assets/Intro.png";
-import Introo from "../assets/introo.png";
 import Hero from "../assets/Hero.png";
 import Hero2 from "../assets/Hero2.png";
 import DanceLogo from "../assets/DanceLogo.png";
@@ -197,7 +194,6 @@ const Home = () => {
               src={DanceLogo}
               alt="DanceLogo image"
               style={{
-                // width: isSmallScreen ? "80%" : "90%",
                 maxWidth: "200px",
                 backgroundColor: "transparent",
               }}
@@ -217,7 +213,6 @@ const Home = () => {
               src={DrawingLogo}
               alt="DrawingLogo image"
               style={{
-                // width: isSmallScreen ? "80%" : "50%",
                 maxWidth: "200px",
                 backgroundColor: "transparent",
               }}

@@ -9,7 +9,6 @@
 }
 .logo{
     max-width: 50px;
-    /* max-height: 35px; */
 }
 .top-logo{
     margin-right: 5px;
@@ -71,7 +70,6 @@ form button{
 }
 button:hover
 {
-    /* background-color: #ffc800; */
     background-color: #38434A;
     color: #F7C97E;
 }
@@ -84,16 +82,9 @@ button:hover
 form
 {
     text-align: center;
-    /* background-color: #113946; */
     display: flex;
     flex-direction: column;
-    /* width:90%; */
     max-width: 800px;
-    /* padding:1vw 3vw; */
-    /* padding-right:3vw; */
-    /* border-radius: 1rem; */
-    /* margin-bottom: 30px; */
-    /* margin-left: max(15px,20px); */
 }
 
 form input,textarea,select,button{
@@ -111,7 +102,6 @@ form button{
     font-weight: bold;
     font-family: "Bebas Neue";
     background-color: #382B4D;
-    /* color:#ffc800; */
 }
 form i {
     margin-right: 10px;

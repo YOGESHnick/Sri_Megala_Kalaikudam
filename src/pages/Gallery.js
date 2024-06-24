@@ -5,21 +5,18 @@ import {
   useTheme,
   useMediaQuery,
   styled,
-  Grid,
-  Stack,
-  Button,
 } from "@mui/material";
 import Masonry from "@mui/lab/Masonry";
 
 import Dance1 from "../assets/dance/dance1.jpeg";
 import Dance2 from "../assets/dance/dance2.jpeg";
 import Dance3 from "../assets/dance/dance3.jpeg";
-import Dance3Zoom from "../assets/dance/dance3_zoom.jpeg";
+// import Dance3Zoom from "../assets/dance/dance3_zoom.jpeg";
 import Blue from "../assets/dance/blue.jpeg";
 import Little from "../assets/dance/little.jpeg";
 import Stage from "../assets/dance/stage.jpeg";
 import Fun from "../assets/dance/fun_at_studio.jpeg";
-import Outdoor from "../assets/dance/outdoor.jpeg";
+// import Outdoor from "../assets/dance/outdoor.jpeg";
 import Mini from "../assets/dance/outdoor.jpeg";
 import Guru from "../assets/dance/akka.jpeg";
 import Arangetram from "../assets/dance/arangetram.jpeg";
@@ -47,7 +44,6 @@ const Gallery = () => {
   return (
     <div>
       {/* D A N C E   S E S S I O N S */}
-
       <Box
         backgroundColor="transparent"
         p={isSmallScreen ? 0 : 10}
@@ -132,6 +128,7 @@ const Gallery = () => {
         </Box>
         <Box
           p={isSmallScreen ? 2 : 0}
+          mt={2}
           sx={{
             position: "relative",
             paddingBottom: "56.25%",
@@ -205,9 +202,6 @@ const Gallery = () => {
                 src: Teach,
                 title: "Teaching",
               },
-
-            
-              
             ].map((image, index) => (
               <Box
                 key={index}

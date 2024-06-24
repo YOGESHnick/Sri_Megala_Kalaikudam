@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   return (
@@ -26,11 +25,8 @@ export const Navbar = () => {
                 <Link className="Link" to="/">Home</Link>
               </li>
               <li className="nav-item px-4 gimme-margin-top">
-                <a className="Link" href="/bharathanatyam-and-drawing">Bharathanatyam & Drawing</a>
+                <Link className="Link" to="/bharathanatyam-and-drawing">Bharathanatyam & Drawing</Link>
               </li>
-              {/* <li className="nav-item px-4 gimme-margin-top">
-              <a className="Link" href="/drawing">Drawing</a>
-              </li> */}
               <li className="nav-item px-4 gimme-margin-top">
                 <Link className="Link" to="/gallery">Gallery</Link>
               </li>

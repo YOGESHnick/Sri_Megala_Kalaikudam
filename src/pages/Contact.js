@@ -6,8 +6,6 @@ import {
   useMediaQuery,
   styled,
   Grid,
-  Stack,
-  Button,
 } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 
@@ -65,7 +63,6 @@ const Contact = () => {
                 id="phone"
                 name="phone"
                 placeholder="Phone no."
-                required
               ></input>
               <textarea
                 id="Query"
@@ -89,7 +86,7 @@ const Contact = () => {
       <Box bgcolor="#38434A" textAlign="center" p={isSmallScreen?1:10}>
         <Grid container spacing={2} alignItems="center" justifyContent="center">
           <Grid item xs={12} md={6}>
-          <iframe width="100%" height="400px" class="map" src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.79476275246!2d80.04419928339739!3d13.047807810998808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1698770914816!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="Branch 1" width="100%" height="400px" class="map" src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.79476275246!2d80.04419928339739!3d13.047807810998808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1698770914816!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </Grid>
           <Grid item xs={12} md={6} sx={{ m: 0 }} textAlign="right">
             <Typography
@@ -165,7 +162,7 @@ const Contact = () => {
             </Typography>
           </Grid>
           <Grid item xs={12} md={6} sx={{ m: 0 }} textAlign="left">
-          <iframe width="100%" height="400px" class="map" src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.79476275246!2d80.04419928339739!3d13.047807810998808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1698770914816!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="Branch 2" width="100%" height="400px" class="map" src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.79476275246!2d80.04419928339739!3d13.047807810998808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1698770914816!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </Grid>
         </Grid>
       </Box>
