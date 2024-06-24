@@ -178,7 +178,7 @@ const Classes = () => {
             appropriate one and join us!
           </Typography>
         </Box>
-        <a   href="/contact">
+        <a   href="/gallery">
           <button className="classes" >Gallery</button>
         </a>
       </Box>
