@@ -17,6 +17,7 @@
 .tgl{
     margin-top: 10px;
     margin-bottom: 10px;
+    max-width: fit-content;
 }
 .navbar-brand{
     font-family: 'IBM Plex Mono';
