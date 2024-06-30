@@ -119,6 +119,18 @@ const Contact = () => {
               Tuesday & Thursday <br></br>
               5pm - 8pm
             </Typography>
+            <Typography
+              mt={2}
+              variant="ptSerif"
+              textAlign="center"
+              fontSize={{ md: 20, xs: 18 }}
+              color="#f9f9f9"
+              fontWeight={700}
+              sx={{ marginBottom: 2 }}
+              display="block"
+            >
+              <a className="phone1" href="tel:+91 9087998260"><i class="fa-solid fa-phone fa-xl"></i>9087998260</a>
+            </Typography>
           </Grid>
         </Grid>
       </Box>
@@ -157,6 +169,18 @@ const Contact = () => {
             >
               Tuesday & Thursday <br></br>
               5pm - 8pm
+            </Typography>
+            <Typography
+              mt={2}
+              variant="ptSerif"
+              textAlign="center"
+              fontSize={{ md: 20, xs: 18 }}
+              color="#f9f9f9"
+              fontWeight={700}
+              sx={{ marginBottom: 2 }}
+              display="block"
+            >
+              <a className="phone1" href="tel:+91 9087998260"><i class="fa-solid fa-phone fa-xl"></i>9087998260</a>
             </Typography>
           </Grid>
           <Grid item xs={12} md={6} sx={{ m: 0 }} textAlign="left">
